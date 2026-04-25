@@ -1,0 +1,25 @@
+{
+    "package": "melonDS",
+    "info": {
+        "title": "melonDS",
+        "author": "ArcDelta / Gheoygos / Arisotura / RSDuck / Hydr8gon",
+        "category": "emu",
+        "version": "7.2.1",
+        "url": "https://github.com/ArcDelta/melonDS",
+        "license": "GPLv3",
+        "description": "DS emulator",
+        "details": "DS emulator, sorta\\n\\nThe goal is to do things right and fast, akin to blargSNES (but hopefully better). But also to, you know, have a fun challenge :)\\n\\nThe source code is provided under the GPLv3 license.\\n\\nHow to use\\nmelonDS requires BIOS/firmware copies from a DS. Files required:\\n\\nbios7.bin, 16KB: ARM7 BIOS\\nbios9.bin, 4KB: ARM9 BIOS\\nfirmware.bin, 128/256/512KB: firmware\\nFirmware boot requires a firmware dump from an original DS or DS Lite. DS firmwares dumped from a DSi or 3DS aren't bootable and only contain configuration data, thus they are only suitable when booting games directly.\\n\\nPossible firmware sizes\\n128KB: DSi/3DS DS-mode firmware (reduced size due to lacking bootcode)\\n256KB: regular DS firmware\\n512KB: iQue DS firmware\\nDS BIOS dumps from a 3DS can be used with no compatibility issues. DSi BIOS dumps should be usable too, provided they were dumped properly.\\n\\nAs for the rest, the interface should be pretty straightforward. If you have a question, don't hesitate to ask, though!"
+    },
+    "changelog": "7.2.1\\nNot an actual update (and therefore, there were not any changes in the version of the program compared with the Gheovgos release). This is just a recompiled binary of the Release 7.2 using the latest libnx, in order to be compatible with HOS and AMS changes.",
+    "assets": [
+        {
+            "url": "https://github.com/ArcDelta/melonDS/releases/download/7.2.1/melonDS.nro",
+            "dest": "/switch/melonds/melonDS.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        }
+    ]
+}
